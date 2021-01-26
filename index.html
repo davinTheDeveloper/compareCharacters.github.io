@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Compare Letters</title>
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
+<body>
+        <section>
+                <h1>Match the Characters</h1> 
+
+                <button onclick="generateRandomElements()">Generate Characters</button>
+                <output id='letterDisplay'>
+                </output>
+                <output type="text" id='numberDisplay'>
+                </output>
+<br/>
+<br/>
+        <form>                        
+                <input type="text" id='userInput'> - input letter here</input>
+<br/>
+                <input type="text" id='userNumber'> - input number here</input>
+<br/>
+<br/>
+        </form>
+                <button onclick="matchUserCharacters()">Check</button>
+<br/>
+<br/>
+                <button onclick="clearInputs()">Clear</button>
+        </section>
+<br/>
+</body>
+        <script src="index.js"></script>
+</html>
